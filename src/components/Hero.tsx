@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 bg-gradient-to-br  rounded-full overflow-hidden flex items-center justify-center animate-float">
                 <img
-                  src="p-2.jpg"
+                  src="./p-2.jpg"
                   alt="Purv Variya"
                   className="w-full h-full object-cover mix-blend-overlay"
                 />
