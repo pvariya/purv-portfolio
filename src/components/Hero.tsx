@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github as GitHub, Linkedin, Mail, MapPin } from 'lucide-react';
-    import Image from 'next/image';
+    // import Image from 'next/image';
 const Hero: React.FC = () => {
   return (
     <section id="home" className="pt-24 lg:pt-32 pb-24 relative overflow-hidden">
@@ -76,21 +76,21 @@ const Hero: React.FC = () => {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 bg-gradient-to-br  rounded-full overflow-hidden flex items-center justify-center animate-float">
-{/* <img
+<img
   src="/p-2.jpg"
   alt="Purv Variya"
   className="w-full h-full object-cover mix-blend-overlay"
-/> */}
+/>
         
 
-<Image
+{/* <Image
   src="/p-2.jpg"
   alt="Purv Variya"
   width={320}
   height={320}
   className="w-full h-full object-cover mix-blend-overlay"
 />
-    
+     */}
                 <div className="absolute inset-0 bg-black/20 dark:bg-black/40"></div>
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-orange-500 rounded-full animate-pulse-slow opacity-70"></div>
